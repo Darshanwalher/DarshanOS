@@ -11,7 +11,7 @@ const Note = ({ windowName, setWindowsState }) => {
 
     useEffect(() => {
         // Use '/note.txt' if /public/ gives you a 404
-        fetch('/public/note.txt') 
+        fetch('/note.txt') 
             .then(res => res.text())
             .then(text => {
                 const formattedMarkdown = "```typescript\n" + text + "\n```";

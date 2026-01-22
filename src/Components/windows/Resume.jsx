@@ -16,7 +16,7 @@ const Resume = ({ windowName, setWindowsState }) => {
         
         {/* Note: Remove /public/ from the src path for Vite/React */}
         <iframe 
-          src="/public/resume.pdf" 
+          src="/resume.pdf" 
           title="Resume PDF"
           frameBorder="0"
         ></iframe>
