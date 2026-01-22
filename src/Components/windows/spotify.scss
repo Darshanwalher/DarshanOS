@@ -1,0 +1,16 @@
+.spotify-window {
+  height: 100%;
+  width: 100%;
+  background-color: #000; // Spotify's base color
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  iframe {
+    border: none;
+    // This ensures the iframe fills the MacWindow perfectly
+    height: 100%;
+    width: 100%;
+  }
+}

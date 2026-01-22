@@ -1,0 +1,30 @@
+.note-window {
+  background-color: #1e1e1e; 
+  height: 100%;
+  overflow-y: auto;
+  padding: 10px;
+
+  // This targets the container created by SyntaxHighlighter
+  div {
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Fira Code', monospace !important;
+    
+    // The colorful left border design
+    border-left: 4px solid;
+    border-image: linear-gradient(to bottom, #61dafb, #c678dd, #e06c75) 1;
+    
+    // Remove default margins from the highlighter
+    margin: 0 !important;
+    background: #1e1e1e !important; 
+  }
+
+  /* Custom Scrollbar for the Mac look */
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 10px;
+  }
+}

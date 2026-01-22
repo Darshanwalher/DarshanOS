@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "image": "https://plus.unsplash.com/premium_photo-1721076216232-2dde64e1b95b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aW1hZ2UlMjBlZGl0b3J8ZW58MHx8MHx8fDA%3D",
+    "title": "Image_Editor",
+    "description": "A browser-based image editor with real-time filters and adjustments.",
+    "tags": ["CSS", "JavaScript", "Canvas", "Web UI"],
+    "repoLink": "https://github.com/Darshanwalher/Image_Editor",
+    "demoLink": "https://darshanwalher.github.io/Image_Editor/"
+  },
+  {
+    "id": 2,
+    "image": "https://plus.unsplash.com/premium_photo-1710027595102-b73e12cdbe42?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BvdCUyMGxpZ2h0JTIwdGVjaHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Spotlight",
+    "description": "Visual UI animation and spotlight effect project.",
+    "tags": ["CSS", "Web Design", "Animation"],
+    "repoLink": "https://github.com/Darshanwalher/Spotlight",
+    "demoLink": "https://darshanwalher.github.io/Spotlight/"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1712000155290-ee65c0a82eda?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRvJTIwZG8lMjBsaXN0fGVufDB8fDB8fHww",
+    "title": "Kanban",
+    "description": "Trello-like task management app with drag-and-drop features.",
+    "tags": ["JavaScript", "HTML", "CSS", "UI"],
+    "repoLink": "https://github.com/Darshanwalher/Kanban",
+    "demoLink": "https://darshanwalher.github.io/Kanban/"
+  },
+  {
+    "id": 4,
+    "image": "https://i.pinimg.com/1200x/38/fb/de/38fbdeaa36e0a6faec5e5c682d06fe78.jpg",
+    "title": "Snake_Game",
+    "description": "Classic Snake game implemented using JavaScript.",
+    "tags": ["JavaScript", "Game Development"],
+    "repoLink": "https://github.com/Darshanwalher/Snake_Game",
+    "demoLink": "https://darshanwalher.github.io/Snake_Game/"
+  },
+  {
+    "id": 5,
+    "image": "https://i.pinimg.com/736x/67/3d/94/673d941ae246cbe89e3ecb0acd82ca98.jpg",
+    "title": "Web_Vulnerabilities",
+    "description": "Project focused on identifying and exploiting common web vulnerabilities.",
+    "tags": ["Python", "Security", "Web"],
+    "repoLink": "https://github.com/Darshanwalher/Web_Vulnerabilities",
+    "demoLink": null
+  },
+  {
+    "id": 6,
+    "image": "https://i.pinimg.com/1200x/c2/cb/24/c2cb247f4747a0a383897e7ffdb1a899.jpg",
+    "title": "Payment_Security_Check",
+    "description": "Security checks and fraud analysis for payment systems.",
+    "tags": ["Python", "Security", "ML"],
+    "repoLink": "https://github.com/Darshanwalher/Payment_Security_Check",
+    "demoLink": "https://payment-security-check.onrender.com"
+  },
+  {
+    "id": 7,
+    "image": "https://i.pinimg.com/1200x/6a/e0/1d/6ae01d66da670bf49af8e296ca9c20e3.jpg",
+    "title": "song_recommendation_system",
+    "description": "Music recommendation system based on similarity and ML techniques.",
+    "tags": ["Python", "Machine Learning", "Recommender Systems"],
+    "repoLink": "https://github.com/Darshanwalher/song_recommendation_system",
+    "demoLink": "https://spotify-song-recommendation-system.onrender.com"
+  },
+  {
+    "id": 8,
+    "image": "https://i.pinimg.com/736x/db/db/d2/dbdbd2f05881a0f069e6fa085d63a0f2.jpg",
+    "title": "whatsapp-data-insights",
+    "description": "Extracts insights and analytics from WhatsApp chat data.",
+    "tags": ["Python", "Data Analysis"],
+    "repoLink": "https://github.com/Darshanwalher/whatsapp-data-insights",
+    "demoLink": "https://whatsapp-data-insights.onrender.com"
+  },
+  {
+    "id": 9,
+    "image": "https://i.pinimg.com/736x/36/d3/92/36d39247289fa60ad6c51a6d5b29f7cc.jpg",
+    "title": "FlixRecommender",
+    "description": "Movie recommendation system using content-based filtering.",
+    "tags": ["Python", "Machine Learning", "Recommender"],
+    "repoLink": "https://github.com/Darshanwalher/FlixRecommender",
+    "demoLink": "https://flixrecommender.onrender.com"
+  },
+  {
+    "id": 10,
+    "image": "https://i.pinimg.com/736x/d9/38/a8/d938a808d053ef5ad6e72fa98a55151a.jpg",
+    "title": "Email_Spam_Detection",
+    "description": "ML-based system to detect spam emails.",
+    "tags": ["Python", "ML", "NLP"],
+    "repoLink": "https://github.com/Darshanwalher/Email_Spam_Detection",
+    "demoLink": "https://email-spam-detection-hh3c.onrender.com"
+  },
+  {
+    "id": 11,
+    "image": "https://i.pinimg.com/736x/2e/30/f5/2e30f526fe291186a10e94f26aa5279b.jpg",
+    "title": "ThreatScope-AI",
+    "description": "AI-powered cyber threat detection system with Streamlit UI.",
+    "tags": ["Python", "Machine Learning", "Cybersecurity", "Streamlit"],
+    "repoLink": "https://github.com/Darshanwalher/ThreatScope-AI",
+    "demoLink": "https://cybershield-sentinel.onrender.com"
+  },
+  {
+    "id": 12,
+    "image": "https://i.pinimg.com/1200x/03/6e/42/036e429e8cdb0f0a8f3d2b949e01376b.jpg",
+    "title": "Heart_Disease_Prediction",
+    "description": "Predicts heart disease risk using machine learning.",
+    "tags": ["Python", "Machine Learning", "Healthcare", "Streamlit"],
+    "repoLink": "https://github.com/Darshanwalher/Heart_Disease_Prediction",
+    "demoLink": "https://heart-attack-prediction-knn.onrender.com"
+  },
+  {
+    "id": 13,
+    "image": "https://i.pinimg.com/1200x/a2/d6/df/a2d6dfb93102c170ec7dd6d595c8ff4c.jpg",
+    "title": "Automated-Web-scanner",
+    "description": "Automated vulnerability scanner for web applications.",
+    "tags": ["Python", "Security", "Automation"],
+    "repoLink": "https://github.com/Darshanwalher/Automated-Web-scanner",
+    "demoLink": null
+  }
+]

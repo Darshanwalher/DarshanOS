@@ -1,0 +1,266 @@
+/**
+ * @file: darshan.profile.ts
+ * @author: Darshan Madan Walher
+ * @summary: Data Analytics & React Web Developer with strong security focus.
+ */
+
+// --------------------------------------------------
+// 1. CORE SKILLS & TECH STACK (TYPED)
+// --------------------------------------------------
+
+type TechStack = {
+  frontend: string[];
+  backend: string[];
+  dataScience: string[];
+  machineLearning: string[];
+  cybersecurity: string[];
+  tools: string[];
+};
+
+const TECH_STACK: TechStack = {
+  frontend: [
+    "React.js",
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "Streamlit UI",
+    "Responsive Web Design",
+  ],
+
+  backend: [
+    "Python",
+    "Flask",
+    "MongoDB",
+    "REST APIs",
+  ],
+
+  dataScience: [
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Scikit-learn",
+    "EDA",
+    "SHAP Explainability",
+  ],
+
+  machineLearning: [
+    "Random Forest",
+    "XGBoost",
+    "PCA",
+    "SMOTE",
+    "ML Algorithms",
+  ],
+
+  cybersecurity: [
+    "OWASP Top 10",
+    "Web Vulnerability Scanning",
+    "Manual Testing",
+    "Kali Linux",
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "Power BI",
+    "Web Scraping",
+  ],
+};
+
+// --------------------------------------------------
+// 2. PROFESSIONAL EXPERIENCE
+// --------------------------------------------------
+
+interface ExperienceResult {
+  responsibilities: string[];
+  impact: Record<string, string>;
+}
+
+class ProfessionalExperience {
+
+  /**
+   * @company Purple Lab AI
+   * @role Cybersecurity Intern
+   * @period Present
+   * @focus Code Vulnerability Scanner
+   */
+  public async purpleLabAIInternship(): Promise<ExperienceResult> {
+    const responsibilities = [
+      "Working on automated code vulnerability detection systems",
+      "Analyzing source code for security flaws and insecure patterns",
+      "Mapping detected issues to OWASP security standards",
+      "Improving accuracy and performance of vulnerability detection logic",
+    ];
+
+    const impact = {
+      security: "Enhanced early-stage vulnerability identification",
+      automation: "Reduced manual code review effort using automation",
+    };
+
+    return { responsibilities, impact };
+  }
+
+  /**
+   * @company Tata Group (Forage)
+   * @role Data Analytics Analyst
+   * @period Jun 2025 – Jul 2025
+   * @mode Remote
+   */
+  public async tataGroupExperience(): Promise<ExperienceResult> {
+    const responsibilities = [
+      "Performed Exploratory Data Analysis (EDA) on financial datasets",
+      "Built AI-driven risk profiling models to predict delinquency trends",
+      "Created data storytelling reports to support business decisions",
+      "Improved collection and risk strategies using analytical insights",
+    ];
+
+    const impact = {
+      analytics: "Improved decision accuracy using data-driven insights",
+      reporting: "Clear visualization for stakeholders",
+    };
+
+    return { responsibilities, impact };
+  }
+}
+
+// --------------------------------------------------
+// 3. PROJECT PORTFOLIO
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  domain: string;
+  highlights: string[];
+  techUsed: string[];
+}
+
+const PROJECTS: Project[] = [
+  {
+    name: "Automated Web Vulnerability Scanner",
+    domain: "Cybersecurity & Web Application Security",
+    highlights: [
+      "Detected OWASP Top 10 vulnerabilities (SQLi, XSS, CSRF, RCE)",
+      "Achieved ~95% detection accuracy using automated analysis",
+      "Generated PDF vulnerability reports with severity & fixes",
+      "Reduced manual security testing effort by 60%",
+    ],
+    techUsed: [
+      "Python",
+      "Flask",
+      "Machine Learning",
+      "OWASP",
+      "PDF Automation",
+    ],
+  },
+
+  {
+    name: "Credit Card Fraud Detection System",
+    domain: "Financial Security & Explainable AI",
+    highlights: [
+      "Trained multiple ML models achieving 97% F1-score",
+      "Handled class imbalance using PCA & SMOTE",
+      "Implemented SHAP for explainable AI decisions",
+      "Generated transparent PDF reports for audit readiness",
+    ],
+    techUsed: [
+      "Python",
+      "Scikit-learn",
+      "XGBoost",
+      "SHAP",
+      "Streamlit",
+    ],
+  },
+
+  {
+    name: "WhatsApp Chat Analyzer",
+    domain: "Data Mining & React-based Visualization",
+    highlights: [
+      "Processed 5,000+ messages daily with 98% text-cleaning accuracy",
+      "Extracted emojis, word frequency, and user activity stats",
+      "Built interactive dashboards for conversation insights",
+      "Focused on clean UI and responsive design principles",
+    ],
+    techUsed: [
+      "Python",
+      "Streamlit",
+      "Data Mining",
+      "Matplotlib",
+      "Frontend Visualization Concepts",
+    ],
+  },
+];
+
+// --------------------------------------------------
+// 4. EDUCATION
+// --------------------------------------------------
+
+interface Education {
+  degree: string;
+  institute: string;
+  location: string;
+  status?: string;
+  Percentage?: number;
+}
+
+const EDUCATION: Education[] = [
+  {
+    degree: "Bachelor of Technology (B.Tech) – Computer Engineering",
+    institute: "JSPM’s Jayawantrao Sawant College of Engineering",
+    location: "Pune",
+    status: "Pursuing",
+  },
+  {
+    degree: "Higher Secondary Certificate (HSC)",
+    institute: "A.M. College",
+    location: "Pune",
+    Percentage: 64.83,
+  },
+  {
+    degree: "Secondary School Certificate (SSC)",
+    institute: "Solia Poonawalla Memorial High School",
+    location: "Pune",
+    Percentage: 81.80,
+  },
+];
+
+// --------------------------------------------------
+// 5. DEVELOPER PROFILE
+// --------------------------------------------------
+
+interface DeveloperProfile {
+  name: string;
+  role: string[];
+  location: string;
+  openTo: string[];
+  strengths: string[];
+}
+
+const DEVELOPER_PROFILE: DeveloperProfile = {
+  name: "Darshan Madan Walher",
+  role: [
+    "Data Analytics Analyst",
+    "React Web Developer",
+    "Cybersecurity Enthusiast",
+  ],
+  location: "Pune, India",
+  openTo: ["Internships", "Full-Time Roles", "Remote Opportunities"],
+  strengths: [
+    "Data-driven problem solving",
+    "Clean and responsive UI development using React",
+    "Security-first application design",
+    "Explainable AI & reporting",
+  ],
+};
+
+// --------------------------------------------------
+// EXPORT
+// --------------------------------------------------
+
+const profile = {
+  TECH_STACK,
+  PROJECTS,
+  EDUCATION,
+  DEVELOPER_PROFILE,
+  experience: new ProfessionalExperience(),
+};
+
+export default profile;
