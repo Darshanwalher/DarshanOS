@@ -3,6 +3,8 @@ import "./navbar.scss";
 import DateTime from "./DateTime";
 
 const NavBar = ({ setWindowsState }) => {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
   const [showWindowMenu, setShowWindowMenu] = useState(false);
   const menuRef = useRef(null);
 
@@ -37,7 +39,8 @@ const NavBar = ({ setWindowsState }) => {
 
   return (
     <nav>
-      <div className="left">
+      <div className={`left ${showMobileMenu ? "open" : ""}`}>
+
         <div className="apple-icon">
           <img src="/NavBar-Icon/apple.svg" alt="Apple" />
         </div>
@@ -67,6 +70,11 @@ const NavBar = ({ setWindowsState }) => {
           <p>Terminal</p>
         </div>
       </div>
+
+      <div className="hamburger" onClick={() => setShowMobileMenu(p => !p)}>
+        ☰
+      </div>
+
 
       <div className="right">
         <div className="nav-wifi">

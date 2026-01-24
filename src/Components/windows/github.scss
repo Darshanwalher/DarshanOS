@@ -1,3 +1,4 @@
+/* GRID */
 .cards {
   padding: 1.25rem;
   display: grid;
@@ -5,7 +6,7 @@
   gap: 1.5rem;
 }
 
-/* Card */
+/* CARD */
 .card {
   background: #1a1a1a;
   border-radius: 12px;
@@ -28,7 +29,7 @@
   }
 
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     text-align: center;
   }
 
@@ -54,22 +55,50 @@
   .urls {
     margin-top: auto;
     display: flex;
-    justify-content: space-between;
+    gap: 0.5rem;
 
     a {
+      flex: 1;
+      text-align: center;
       font-size: 0.85rem;
-      padding: 0.4rem 0.9rem;
+      padding: 0.45rem 0;
       border-radius: 999px;
       background: #2a2a2a;
       text-decoration: none;
       color: #fff;
-      transition: background 0.2s;
-
-      
+      transition: background 0.2s ease;
 
       &:hover {
         background: #3a3a3a;
       }
+    }
+  }
+}
+
+/* 📱 TABLET & MOBILE */
+@media (max-width: 768px) {
+  .cards {
+    padding: 0.75rem;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 📱 SMALL PHONES */
+@media (max-width: 420px) {
+  .card {
+    padding: 0.85rem;
+
+    h1 {
+      font-size: 1rem;
+    }
+
+    .desc {
+      font-size: 0.85rem;
+    }
+
+    .urls a {
+      font-size: 0.8rem;
     }
   }
 }

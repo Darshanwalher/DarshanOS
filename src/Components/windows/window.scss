@@ -10,6 +10,7 @@
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* TITLE BAR */
 .nav {
   height: 42px;
   display: flex;
@@ -20,6 +21,7 @@
   background: #111;
 }
 
+/* WINDOW DOTS */
 .dots {
   display: flex;
   gap: 8px;
@@ -39,38 +41,45 @@
 .title {
   font-size: 0.9rem;
   opacity: 0.8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+/* CONTENT */
 .content {
   flex: 1;
   overflow-y: auto;
-}
-
-
-.content {
-  overflow-y: auto;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-
-  /* Firefox */
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0) transparent;
 }
 
-/* WebKit scrollbar */
-.content::-webkit-scrollbar {
-  width: 6px;
+/* ========================== */
+/* 📱 MOBILE */
+/* ========================== */
+@media (max-width: 768px) {
+  .window {
+    border-radius: 0;
+  }
+
+  .nav {
+    padding: 0 10px;
+  }
+
+  .title {
+    font-size: 0.85rem;
+  }
 }
 
-.content::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 10px;
-  transition: background-color 0.2s ease;
+/* ========================== */
+/* 📱 SMALL MOBILE */
+/* ========================== */
+@media (max-width: 420px) {
+  .nav {
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
 }
-
-/* Show scrollbar on hover */
-.content:hover::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.35);
-}
-
-
